@@ -202,7 +202,10 @@ function createChart(filteredData, filteredNodes) {
                 linkFormat: '',
                 style: {
                     fontSize: '0.8em',
-                    fontWeight: 'normal'
+                    fontWeight: 'normal',
+                    whiteSpace: 'normal',
+                    wordWrap: 'break-word',
+                    width: 100
                 }
             },
             data: filteredData,
@@ -288,3 +291,4 @@ $('#btnPdf').on('click', function() {
 
 </body>
 </html>
+
